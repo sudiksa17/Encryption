@@ -1,4 +1,4 @@
-package Encryption
+package encryption
 
 import (
 	"Encryption/algos/aes"
