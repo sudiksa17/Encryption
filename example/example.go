@@ -11,7 +11,7 @@ func example() {
 	//pass key and text that you want to encrypt
 	encryptedData := encryption.AESEncrypt(key, text)
 	//then for decrypting the data, pass the string
-	//that is returned from the above function, it is the encrypted data and pass key along wiht it
+	//that is returned from the above function, it is the encrypted data and pass key along with it
 	encryption.AESDecrypt(key, encryptedData)
 
 	//Same for AES with base64 encoded
